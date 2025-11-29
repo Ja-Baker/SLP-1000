@@ -203,9 +203,23 @@ a:hover {
     color: var(--white);
 }
 
+.yes-btn:hover {
+    background-color: #8fb93e;
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .no-btn {
     background-color: var(--pink);
     color: var(--white);
+}
+
+.no-btn:hover {
+    background-color: #d64487;
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .area-btn {
@@ -438,6 +452,7 @@ a:hover {
 
 .activity-btn:hover {
     background: #007a8c;
+    color: var(--white);
     transform: translateY(-2px);
 }
 
@@ -799,6 +814,7 @@ a:hover {
 
 .activity-btn:hover {
     background-color: #d64487;
+    color: var(--white);
     transform: translateY(-1px);
 }
 
@@ -1018,6 +1034,7 @@ a:hover {
 
 .activity-btn:hover {
     background-color: #007a8c;
+    color: var(--white);
     transform: translateY(-2px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -1248,6 +1265,7 @@ a:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(238, 79, 156, 0.3);
     background: linear-gradient(135deg, #d64487 0%, var(--pink) 100%);
+    color: var(--white);
 }
 
 .activity-btn.disabled,
